@@ -5,9 +5,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { supabase } from "@/lib/supabaseClient";
-import { validateProgram } from "@/lib/validateProgram";
-import { normalizeElement } from "@/lib/normalizeElement";
+import { supabase } from "@/components/lib/supabaseClient";
+import { validateProgram } from "@/components/lib/validateProgram";
+import { normalizeElement } from "@/components/lib/normalizeElement";
 import Nav from "@/components/Nav";
 
 export default function SkatingAdvisor() {
